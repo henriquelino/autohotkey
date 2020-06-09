@@ -1,8 +1,8 @@
 # Backup tool
 
-
-<span style="display:block;text-align:center">![Backup Tool interface](/backuptool%20interface.PNG)</span>
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/henriquelino/autohotkey/master/Backup%20tool/backuptool%20interface.PNG" alt="Backup tool image"/>
+</p>
 ### pt-br
 Cria backup incremental do arquivo ou pasta selecionada, criando X arquivos a cada Y minutos, após o X+1 ser criado, o mais antigo será deletado e um novo será criado no lugar, mantendo sempre um número X de backups.  
 
