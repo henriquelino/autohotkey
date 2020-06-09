@@ -1,9 +1,14 @@
 # Backup tool
 
-### pt/br
-Cria backup incremental do arquivo ou pasta selecionada, criando X arquivos a cada Y tempo, após o X+1 ser criado, o mais antigo será deletado e um novo será criado no lugar, mantendo sempre um número X de backups.  
+### pt-br
+Cria backup incremental do arquivo ou pasta selecionada, criando X arquivos a cada Y minutos, após o X+1 ser criado, o mais antigo será deletado e um novo será criado no lugar, mantendo sempre um número X de backups.  
 
 * Cria utilizando o padrão ANO_MES_DIA_HORA_MINUTO_SEGUNDO
+
+### en-en
+Creates an incremental backup of file or folder, creating X files each Y minutes, after X+1 file is created, oldest one is deleted and a new one is created, retaining X numbers of backups.  
+
+* Creates new files using pattern YEAR_MONTH_DAY_HOUR_MINUTE_SECOND
 
 ## To Do:
 * Continuar backup de onde parou.  
