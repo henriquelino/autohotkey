@@ -14,7 +14,7 @@ Cria backup incremental do arquivo ou pasta selecionada, criando X arquivos a ca
 ### en
 Creates an incremental backup of file or folder, creating X files each Y minutes, after X+1 file is created, oldest one is deleted and a new one is created, retaining X numbers of backups.  
 
-* Creates new files using pattern YEAR_MONTH_DAY_HOUR_MINUTE_SECOND
+* Creates new files using the pattern YEAR_MONTH_DAY_HOUR_MINUTE_SECOND
 
 ___
 
