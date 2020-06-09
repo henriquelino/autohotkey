@@ -264,7 +264,4 @@ IniWrite, %Max_backups%, config.ini,configs, max_backups
 IniWrite, %TimeBetween%, config.ini,configs, time_between
 Sleep, 1000
 
-
-GuiClose: ;when gui closes or esc, exit app
-GuiEscape:
 ExitApp
