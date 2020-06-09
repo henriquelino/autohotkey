@@ -1,7 +1,7 @@
 # Backup tool
 
-<div align="center"><img src=/Backup%20tool/backuptool%20interface.PNG)>
-</div>
+
+<span style="display:block;text-align:center">![Backup Tool interface](/backuptool%20interface.PNG)</span>
 
 ### pt-br
 Cria backup incremental do arquivo ou pasta selecionada, criando X arquivos a cada Y minutos, após o X+1 ser criado, o mais antigo será deletado e um novo será criado no lugar, mantendo sempre um número X de backups.  
