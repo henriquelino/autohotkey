@@ -21,15 +21,15 @@ ___
 ## To Do:
 
 ### br
- [] - Continuar backup de onde parou.  
+- [] - Continuar backup de onde parou.  
  Até o momento após fechar e reabrir, será reacriado os arquivos mantendo os antigos, enquanto o esperado é continuar na sequencia deletando os antigos e criando novos.
 
- [x] - Juntar botões start e stop.  
+- [x] - Juntar botões start e stop.  
  Ao juntar os botões alguns erros serão evitados, por exemplo, atualmente ao selecionar start várias vezes a contagem de backups é reiniciada.
 
 ### en
- [ ] - Keep going from where it left.  
+- [ ] - Keep going from where it left.  
  Now it starts creating files again when program is re-open, the idea is to keep going from where it stops, so the files it  creates don't go up each time program is restarted.
 
- [ ] - Merge start and stop buttons.
+-[ ] - Merge start and stop buttons.
  Merging will suppress some issues, eg, after starting, and pressing start again, time and backup numbers are messed causing time erros or backup number errors.
