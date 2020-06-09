@@ -31,5 +31,5 @@ ___
 - [ ] Keep going from where it left.  
  Now it starts creating files again when program is re-open, the idea is to keep going from where it stops, so the files it  creates don't go up each time program is restarted.
 
-- [ ] Merge start and stop buttons.
+- [ ] Merge start and stop buttons.  
  Merging will suppress some issues, eg, after starting, and pressing start again, time and backup numbers are messed causing time erros or backup number errors.
