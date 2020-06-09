@@ -24,7 +24,7 @@ ___
 - [ ] Continuar backup de onde parou.  
  Até o momento após fechar e reabrir, será reacriado os arquivos mantendo os antigos, enquanto o esperado é continuar na sequencia deletando os antigos e criando novos.
 
-- [x] Juntar botões start e stop.  
+- [ ] Juntar botões start e stop.  
  Ao juntar os botões alguns erros serão evitados, por exemplo, atualmente ao selecionar start várias vezes a contagem de backups é reiniciada.
 
 ### en
