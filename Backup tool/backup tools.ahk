@@ -47,9 +47,7 @@ Gui, Add, Radio, h25    x+20   yp 		vtime_set_minutes gAuto_sub		, minutes
 Gui, Add, Text, h25 x20 yp+30, Max number of backups:
 Gui, Add, Edit, h25 w50 x20 yp+20  r1 vMax_backups gAuto_sub
 Gui, Add, UpDown, h25 vMax_backupsUPD Range1-10, 5
-Gui, Add, Button, h25 w100 x20 yp+35 gSelect_out, Set  	; xm puts it at the bottom left corner.
-Gui, Add, Button, h25 w50 x+20 yp gTest, test  	; xm puts it at the bottom left corner.
-Gui, Add, Button, h25 w50 x+20 yp gReload, reload  	; xm puts it at the bottom left corner.
+Gui, Add, Button, h25 w100 x20 yp+35 gReload, Reload tool 	; xm puts it at the bottom left corner.
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -243,14 +241,6 @@ Select_out:
 
 FileSelectFolder, Backup_output , StartingFolder, Options, Prompt
 GuiControl,, Backup_output, % Backup_output
-
-return
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-Test:
-
-MsgBox, Minutes: %Time_Set_minutes%`nSeconds: %Time_set_seconds%
 
 return
 
