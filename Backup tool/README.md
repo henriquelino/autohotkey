@@ -11,5 +11,11 @@ Creates an incremental backup of file or folder, creating X files each Y minutes
 * Creates new files using pattern YEAR_MONTH_DAY_HOUR_MINUTE_SECOND
 
 ## To Do:
+
+### pt-br
 * Continuar backup de onde parou.  
  Até o momento após fechar e reabrir, será reacriado os arquivos mantendo os antigos, enquanto o esperado é continuar na sequencia deletando os antigos e criando novos.
+
+### en-en
+ * Keep going from where it left.  
+ Now it starts creating files again when program is re-open, the idea is to keep going from where it stops, so the files it  creates don't go up each time program is restarted.
