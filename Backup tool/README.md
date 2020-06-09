@@ -10,6 +10,8 @@ Creates an incremental backup of file or folder, creating X files each Y minutes
 
 * Creates new files using pattern YEAR_MONTH_DAY_HOUR_MINUTE_SECOND
 
+___
+
 ## To Do:
 
 ### pt-br
