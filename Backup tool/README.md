@@ -1,5 +1,7 @@
 # Backup tool
 
+**[Download link](https://github.com/henriquelino/autohotkey/raw/master/Backup%20tool/backup%20tools.exe)**
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/henriquelino/autohotkey/master/Backup%20tool/backuptool%20interface.PNG" alt="Backup tool image"/>
 </p>
